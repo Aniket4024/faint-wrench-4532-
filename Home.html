@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Let`s Go</title>
+    <style>
+        
+        #mid{
+            width:80%;
+            height: 280px;
+            border: 1px solid rgb(204, 202, 202);
+            margin:50px auto;
+            border-radius: 10px;
+        }
+        #mid-top{
+            width: 95%;
+            height: 25%;
+            border-bottom: 2px solid rgb(222, 219, 219);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        #mid-top>div{
+            display: flex;
+            width: 50%;
+            height: 60%;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: auto;
+            /* border: 1px solid green; */
+            margin-top: 25px;
+        }
+        #mid-top > div > h4{
+            /* width: 18%; */
+            color: rgb(80, 79, 79);
+            /* border: 1px solid green; */
+            margin-top: 40px;
+            padding: 5px;
+        }
+        #mid-top > div > h4:hover{
+            cursor: pointer;
+            border-bottom: 2px solid rgb(80, 79, 79);
+        }
+        #mid-bottom{
+            width: 92%;
+            height: 70%;
+            /* border: 1px solid red; */
+            margin: auto;
+            padding: 5px;
+        }
+        #mid-b1{
+            width: 98%;
+            height: 35%;
+            /* border: 1px solid blueviolet; */
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #mid-b1 > div:nth-child(1){
+            width: 38%;
+            height: 68%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            align-items: center;
+            display: flex;
+            padding-left: 10px;
+        }
+        #mid-b1 > div:nth-child(1)>p{
+            margin-left: 7px;
+        }
+        #mid-b1 > div:nth-child(2){
+            width: 16%;
+            height: 70%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            display: flex;
+            line-height: 1px;
+            align-items: center;
+            color: rgb(79, 76, 76);
+        }
+        #mid-b1 > div > div:nth-child(2)>p{
+            font-size: 12px;
+            color: rgb(112, 111, 111);
+        }
+        
+        #mid-b1 > div:nth-child(2)>span{
+            margin: auto 15px auto 15px;
+            
+        }
+        #mid-b1 > div:nth-child(3){
+            width: 16%;
+            height: 70%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            display: flex;
+            line-height: 1px;
+            align-items: center;
+            color: rgb(79, 76, 76);
+        }
+        #mid-b1 > div > div:nth-child(3)>p{
+            font-size: 12px;
+            color: rgb(112, 111, 111);
+        }
+        
+        #mid-b1 > div:nth-child(3)>span{
+            margin: auto 15px auto 15px;
+            
+        }
+        #mid-b1 > div:nth-child(4){
+            width: 25%;
+            height: 70%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            display: flex;
+            line-height: 1px;
+            align-items: center;
+            color: rgb(79, 76, 76);
+        }
+        #mid-b1 > div > div:nth-child(4)>p{
+            font-size: 12px;
+            color: rgb(112, 111, 111);
+        }
+        
+        #mid-b1 > div:nth-child(4)>span{
+            margin: auto 15px auto 15px;
+            
+        }
+        #mid-b2{
+            width: 98%;
+            /* border: 1px solid green; */
+            margin: auto;
+            height: 25%;
+            display: flex;
+            font-size: 15px;
+            font-weight: 545;
+            align-items: center;
+        }
+        #mid-b2 > input{
+            width: 3%;
+            height:35%;
+        }
+        #mid-b2 > input:hover{
+            cursor: pointer;
+        }
+        #mid-b2 > input:nth-child(2){
+            margin-left: 70px;
+        }
+        #mid-b3{
+            width: 98%;
+            /* border: 1px solid orange; */
+            height: 25%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #mid-b3>button{
+            width: 150px;
+            height:45px;
+            border: 0px;
+            border-radius: 7px;
+            background-color: rgb(42, 115, 218);
+            color: white;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        #mid-b3>button:hover{
+            cursor: pointer;
+            background-color: rgb(38, 100, 188);
+        }
+        #third{
+            width: 80%;
+            height: 550px;
+            /* border: 1px solid red; */
+            margin: auto;
+            border-radius: 10px;
+            background-image: url("background1.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;align-items: center;
+        }
+        #third > div{
+            width: 30%;
+            height: 55%;
+            /* border: 1px solid red; */
+            color: white;
+            margin-left: 50px;
+        }
+        #third > div >p{
+            line-height: 20px;
+        }
+        #third > div >h1{
+            font-size: 40px;
+        }
+        #third > div >button{
+            height: 50px;
+            width: 50%;
+            border-radius: 7px;
+            background-color: rgb(42, 115, 218);
+            color: white;
+            font-size: 16px;
+            font-weight: 550;
+        }
+        #third > div >button:hover{
+            cursor: pointer;
+            background-color: rgb(38, 100, 188);
+        }
+        
+        #fourth{
+            width: 80%;
+            height: 300px;
+            border: 1px solid rgb(185, 181, 181);
+            margin: 60px auto;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        #fourth > div:nth-child(1){
+            width: 33%;
+            height: 100%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-image: url("https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_ROME_iStock_72dpi.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #fourth > div:nth-child(2){
+            width: 50%;
+            height: 100%;
+            /* border: 1px solid red; */
+            margin-left: 20px;
+        }
+        #fourth > div:nth-child(2)>h3{
+            margin-top: 30px;
+        }
+        #fourth > div:nth-child(2)>h1{
+            margin-bottom: 0px;
+        }
+        #fourth > div:nth-child(2) >div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            /* border: 1px solid green; */
+            height: 20%;
+        }
+        #fourth > div:nth-child(2) >div >div:nth-child(1){
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+            height: 90%;
+            line-height: 5px;
+            border: 1px solid rgb(82, 80, 80);
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+        #fourth > div:nth-child(2) >div >div:nth-child(1)p{
+            font-size: 13px;
+        }
+        #fourth > div:nth-child(2) >div>input{
+            width: 35%;
+            height: 80%;
+            border-radius: 10px;
+            padding-left: 20px;
+            border: 1px solid rgb(82, 80, 80);
+        }
+        #fourth > div:nth-child(2) >div>button{
+            width: 25%;
+            height:85%;
+            border-radius: 10px;
+            background-color: rgb(42, 115, 218);
+            color: white;
+            border: 0px;
+            font-size: 16px;
+        }
+        #fourth > div:nth-child(2) >div>button:hover{
+            cursor: pointer;
+            background-color: rgb(38, 100, 188);
+        }
+        #fourth > div:nth-child(3){
+            width: 17%;
+            height: 90%;
+            /* border: 1px solid blue; */
+            text-align: center;
+        }
+        #fourth > div:nth-child(3) >img{
+            width: 80%;
+        }
+        #last-p{
+            margin-top: 7px;
+            font-size: 12px;
+            color: gray;
+        }
+        #fifth{
+            width: 80%;
+            height: 350px;
+            background-image: url("poster1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+        #fifth:hover{
+            cursor: pointer;
+        }
+        #sixth{
+            width: 80%;
+            margin: auto;
+            height: 100px;
+            text-align: center;
+            line-height: 3px;
+        }
+        #sixth>p{
+            color: rgb(76, 34, 175);
+        }
+        #sixth>p:hover{
+            color: rgb(0, 153, 255);
+            cursor: pointer;
+        }
+        #seventh{
+            width: 80%;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin: auto;
+            border-bottom: 1px solid rgb(168, 164, 164);
+        }
+        #seventh>img{
+            width: 12%;
+            height: 50%;
+        }
+        #eighth{
+            width: 80%;
+            height: 310px;
+            border-bottom: 1px solid rgb(168, 164, 164);
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #eighth>div{
+            width: 20%;
+            height: 100%;
+        }
+        #eighth>div>a>p{
+            font-size: 13px;
+        }
+        #eighth>div>a{
+            text-decoration: none;
+            color: rgb(76, 34, 175);
+        }
+        #eighth>div>a:hover{
+            color: rgb(0, 153, 255);
+            cursor: pointer;
+        }
+        #ninth{
+            width: 80%;
+            height: 150px;
+            margin: auto;
+        }
+        #ninth>div{
+            width: 20%;
+            height: 40%;
+            margin: 30px 0px ;
+        }
+        #ninth>div>img{
+            width: 100%;
+        }
+        #ninth>p{
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div id="nav">
+        <div>
+            <div>
+                <img src="logo11.jpeg" alt="">
+            </div>
+            <p>
+                More Travel
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </p>
+        </div>
+        <div>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    language
+                    </span>
+                   <p>English</p>
+            </a>
+            <a href="">
+                Support
+            </a>
+            <a href="">
+                Trips
+            </a>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    notifications
+                    </span>
+            </a>
+            <a href="">
+                Sign in
+            </a>
+        </div>
+    </div>
+    <div id="mid">
+        <div id="mid-top">
+           <div>
+                <h4>Stays</h4>
+                <h4>Flights</h4>
+                <h4>Cars</h4>
+                <h4>Packages</h4>
+                <h4>Things to do</h4>
+           </div>
+        </div>
+        <div id="mid-bottom">
+            <div id="mid-b1">
+                <div>
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span> 
+                    <p>Going to</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        today
+                    </span>
+                    <div>
+                        <p>Check-in</p>
+                        <h4>28 Dec</h4>
+                    </div>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        today
+                    </span>
+                    <div>
+                        <p>Check-out</p>
+                        <h4>29 Dec</h4>
+                    </div>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                    <div>
+                        <p>Travellers</p>
+                        <h4>1 room, 2 travellers</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="mid-b2">
+                <input type="checkbox" name="" id="">Add a flight
+                <input type="checkbox" name="" id="">Add a car
+            </div>
+            <div id="mid-b3">
+                <button>
+                    Search
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="third">
+        <div>
+            <h1>Save instantly with Expedia Rewards</h1>
+            <p>You can enjoy access to perks like Member Prices, saving an average of 15% on thousands of hotels. Terms may apply.</p>
+            <button>
+                See Member Prices
+            </button>
+        </div>
+    </div>
+    <div id="fourth">
+        <div></div>
+        <div>
+            <h1 >Go further with the Expedia app</h1>
+            <p>Save even more - Get up to 20% on select hotels and earn double the points when you book on the app. Our app deals help you to save on trips so you can travel more and managing it all on the go.</p>
+            <h3>Text yourself a download link for easy access</h3>
+            <div>
+                <div>
+                    <div>
+                        <p>Country code</p>
+                        <h3>India +91</h3>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+                    </div>
+                </div>
+                <input type="number" name="" placeholder="Phone number">
+                <button>
+                    Get the app
+                </button>
+            </div>
+            <p id="last-p">By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+        </div>
+        <div>
+            <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/BEX-HP-CONTROL-27.png" alt="">
+            <h4>Scan the QR Code</h4>
+        </div>
+    </div>
+    <div id="fifth">
+        
+    </div>
+    <div id="sixth">
+        <h4>Explore a world of travel with Expedia</h4>
+        <p>Discover new places and experiences</p>
+    </div>
+    <div id="seventh">
+        <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="Expedia Group">
+    </div>
+    <div id="eighth">
+        <div>
+            <h5>Company</h5>
+            <a href="">
+                <p>About us</p>
+            </a>
+            <a href="">
+                <p>Jobs</p>
+            </a>
+            <a href="">
+                <p>List your property</p>
+            </a>
+           <a href="">
+            <p>Partnerships</p>
+           </a>
+        </div>
+        <div>
+            <h5>Explore</h5>
+            <a href="">
+                <p>India travel guide</p>
+            </a>
+            <a href="">
+                <p>Hotels in India</p>
+            </a>
+            <a href="">
+                <p>Holiday rentals in India</p>
+            </a>
+            <a href="">
+                <p>Holiday Packages in India</p>
+            </a>
+            <a href="">
+                <p>Domestic flights</p>
+            </a>
+            <a href="">
+                <p>Car hire in India</p>
+            </a>
+            <a href="">
+                <p>All accommodation types</p>
+            </a>
+            <a href="">
+                <p>Travel blog</p>
+            </a>
+        </div>
+        <div>
+            <h5>Policies</h5>
+            <a href="">
+                <p>Privacy</p>
+            </a>
+            <a href="">
+                <p>Terms of use</p>
+            </a>
+            <a href="">
+                <p>Vrbo terms and conditions</p>
+            </a>
+        </div>
+        <div>
+            <h5>Help</h5>
+            <a href="">
+                <p>Support</p>
+            </a>
+            <a href="">
+                <p>Change or cancel your booking</p>
+            </a>
+            <a href="">
+                <p>Refund process and timelines</p>
+            </a>
+            <a href="">
+                <p>Book a flight using an airline credit</p>
+            </a>
+           <a href="">
+                <p>International travel documents</p>
+           </a>
+        </div>
+    </div>
+    <div id="ninth">
+        <div>
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+        </div>
+        <p>© 2022 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+    </div>
+    
+</body>
+</html>
