@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="logo11.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let`s Go | About Us</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8f5f4;
+        }
+        #seventh{
+            width: 80%;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin: auto;
+            border-bottom: 1px solid rgb(168, 164, 164);
+        }
+        #seventh>img{
+            width: 12%;
+            height: 50%;
+        }
+        #eighth{
+            width: 80%;
+            height: 310px;
+            border-bottom: 1px solid rgb(168, 164, 164);
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #eighth>div{
+            width: 20%;
+            height: 100%;
+        }
+        #eighth>div>a>p{
+            font-size: 13px;
+        }
+        #eighth>div>a{
+            text-decoration: none;
+            color: rgb(76, 34, 175);
+        }
+        #eighth>div>a:hover{
+            color: rgb(0, 153, 255);
+            cursor: pointer;
+        }
+        #ninth{
+            width: 80%;
+            height: 150px;
+            margin: auto;
+        }
+        #ninth>div{
+            width: 20%;
+            height: 40%;
+            margin: 30px 0px ;
+        }
+        #ninth>div>img{
+            width: 100%;
+        }
+        #ninth>p{
+            font-size: 13px;
+        }
+        #nav{
+            width: 100%;
+            height: 60px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+        }
+        #nav > div{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #nav > div:nth-child(1){
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            /* border: 1px solid green; */
+        }
+        #nav > div:nth-child(2){
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* border: 1px solid green; */
+        }
+        #nav > div > div:nth-child(1){
+            width: 30%;
+            height: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #nav > div > div >a> img{
+            width: 100%;
+            /* height: ; */
+        }
+        #nav>div:nth-child(2)>a{
+            text-decoration: none;
+            color: rgb(85, 85, 85);
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        #nav>div:nth-child(2)>a>p{
+            margin-left: 10px
+        }
+        #nav>div:nth-child(2)>a:hover{
+            color: rgb(34, 130, 255);
+        }
+        #nav>div:nth-child(2)>button{
+            background-color: rgba(255, 255, 255, 0);
+            border: 0px;
+            font-size: 15px;
+            color: rgb(85, 85, 85);
+            font-weight: 600;
+        }
+        #nav>div:nth-child(2)>button:hover{
+            color: rgb(34, 130, 255);
+            cursor: pointer;
+        }
+        #nav > div > p{
+            display: flex;
+            align-items: center;
+            color: rgb(85, 85, 85);
+            font-size: 15px;
+            font-weight: 600;
+            word-spacing: 3px;
+            letter-spacing:2px;
+        }
+        #nav > div > p > span{
+            margin-left: 10px;
+        }
+        #about{
+            width: 78%;
+            height: 450px;
+            margin:30px auto 80px auto;
+            border-radius: 10px;
+            background-color: white;
+            padding:10px 20px;
+            color: rgb(82, 82, 82);
+            line-height: 20px;
+        }
+
+        #about>p:nth-child(3){
+            margin-top: 80px;
+        }
+        #about>p:nth-child(4){
+            margin-top: 40px;
+        }
+        #about>p:nth-child(5){
+            margin-top: 40px;
+        }
+        #about>p:nth-child(6){
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="whole">
+        <div id="nav">
+            <div>
+                <div>
+                    <a href="Home.html">
+                        <img src="logo11.jpeg" alt="">
+                    </a>
+                </div>
+                <p>
+                    More Travel
+                    <span class="material-symbols-outlined">
+                        expand_more
+                        </span>
+                </p>
+            </div>
+            <div>
+                <a href="">
+                    <span class="material-symbols-outlined">
+                        language
+                        </span>
+                       <p>English</p>
+                </a>
+                <a href="">
+                    Support
+                </a>
+                <a href="">
+                    Trips
+                </a>
+                <a href="">
+                    <span class="material-symbols-outlined">
+                        notifications
+                        </span>
+                </a>
+                <button id="same" onclick="click()">
+                    Sign in
+                </button>
+                
+            </div>
+        </div>
+        <div id="about">
+            <h1>About Us</h1>
+            <p>Last revised on 1 September 2022 </p>
+            <p>Let`s Go is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget and activities of every kind at competitive rates. With over hundreds of thousands of hotel partners worldwide and a comprehensive offering of flight inventory made available on the website, travellers can book everything they need for a holiday - rooms to meet every budget, activities of every kind and travel services to complement.  </p>
+            <p>This website is operated by Expedia, Inc., with its head office at 111 Expedia Group Way W, Seattle, WA98119, USA.  
+            </p>
+            <p>Expedia, Inc. is a registered Seller of Travel in the State of Washington USA, Licence No. 601975803. </p>
+            <p>Expedia, Inc. is part of the Expedia Group of companies. </p>
+        </div>
+        <div id="seventh">
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="Expedia Group">
+        </div>
+        <div id="eighth">
+            <div>
+                <h5>Company</h5>
+                <a href="aboutUs.html">
+                    <p>About us</p>
+                </a>
+                <a href="">
+                    <p>Jobs</p>
+                </a>
+                <a href="">
+                    <p>List your property</p>
+                </a>
+               <a href="">
+                <p>Partnerships</p>
+               </a>
+            </div>
+            <div>
+                <h5>Explore</h5>
+                <a href="">
+                    <p>India travel guide</p>
+                </a>
+                <a href="">
+                    <p>Hotels in India</p>
+                </a>
+                <a href="">
+                    <p>Holiday rentals in India</p>
+                </a>
+                <a href="">
+                    <p>Holiday Packages in India</p>
+                </a>
+                <a href="">
+                    <p>Domestic flights</p>
+                </a>
+                <a href="">
+                    <p>Car hire in India</p>
+                </a>
+                <a href="">
+                    <p>All accommodation types</p>
+                </a>
+                <a href="">
+                    <p>Travel blog</p>
+                </a>
+            </div>
+            <div>
+                <h5>Policies</h5>
+                <a href="">
+                    <p>Privacy</p>
+                </a>
+                <a href="">
+                    <p>Terms of use</p>
+                </a>
+                <a href="">
+                    <p>Vrbo terms and conditions</p>
+                </a>
+            </div>
+            <div>
+                <h5>Help</h5>
+                <a href="">
+                    <p>Support</p>
+                </a>
+                <a href="">
+                    <p>Change or cancel your booking</p>
+                </a>
+                <a href="">
+                    <p>Refund process and timelines</p>
+                </a>
+                <a href="">
+                    <p>Book a flight using an airline credit</p>
+                </a>
+               <a href="">
+                    <p>International travel documents</p>
+               </a>
+            </div>
+        </div>
+        <div id="ninth">
+            <div>
+                <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+            </div>
+            <p>© 2022 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+        </div>
+    </div>
+   
+</body>
+</html>

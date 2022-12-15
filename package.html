@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="package.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="logo11.jpeg">
+    <title>Let`s Go | Packages</title>
+    <style>
+        #mdl{
+            width: 50%;
+            margin: auto;
+            /* border: 1px solid red; */
+            height: 250px;
+            text-align: center;
+        }
+        #mdl>h1{
+            font-size: 50px;
+        }
+        #mdl>p{
+            margin-top: -20px;
+            line-height: 20px;
+            color: rgb(109, 104, 104);
+        }
+        #show{
+            display: flex;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            height: 20px;
+            /* border: 1px solid red; */
+        }
+        #show>h4{
+            margin-left: 10px;
+        }
+        #container{
+            width: 80%;
+            margin:30px auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+        }
+        #container >div> img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        #container >div> p{
+            color: gray;
+            font-size: 13px;
+        }
+        #container>div>div{
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 30px;
+        }
+        #container>div>div>h5{
+            background-color: rgb(255, 233, 40);
+            height: 80%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            border-radius: 20px;
+        }
+        #container>div>div>p{
+            margin-left: 25px;
+            text-decoration: line-through;
+        }
+        #container>div>button{
+            width: 45%;
+            height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            border: 0px;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            margin-top: 10px;
+            color: rgb(84, 84, 255);
+        }
+        #seventh{
+            width: 80%;
+            height: 40px;
+            /* border: 1px solid red; */
+            margin: auto;
+            border-bottom: 1px solid rgb(235, 231, 231);
+            display: flex;
+            padding-top: 50px;
+        }
+        #seventh>img{
+            width: 12%;
+            height: 50%;
+        }
+        #eighth{
+            width: 80%;
+            height: 310px;
+            border-bottom: 1px solid rgb(235, 231, 231);
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #eighth>div{
+            width: 20%;
+            height: 100%;
+        }
+        #eighth>div>a>p{
+            font-size: 13px;
+        }
+        #eighth>div>a{
+            text-decoration: none;
+            color: rgb(76, 34, 175);
+        }
+        #eighth>div>a:hover{
+            color: rgb(0, 153, 255);
+            cursor: pointer;
+        }
+        #ninth{
+            width: 80%;
+            height: 150px;
+            margin: auto;
+        }
+        #ninth>div{
+            width: 20%;
+            height: 40%;
+            margin: 30px 0px ;
+        }
+        #ninth>div>img{
+            width: 100%;
+        }
+        #ninth>p{
+            font-size: 13px;
+        }
+        #footer{
+            width: 100%;
+            background-color: rgb(250, 250, 250);
+            margin-top: 200px;
+        }
+        #jack{
+            /* width: 80%; */
+            height: 500px;
+            margin:100px auto;
+        }
+        #jack>h1{
+            width: 80%;
+            margin: auto;
+        }
+        #mid-bottom{
+            width: 82%;
+            height: 45%;
+            /* border: 1px solid red; */
+            margin: auto;
+            padding: 5px;
+        }
+        #mid-b1{
+            width: 98%;
+            height: 35%;
+            /* border: 1px solid blueviolet; */
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #mid-b1 > div:nth-child(1){
+            width: 35%;
+            height: 68%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            align-items: center;
+            display: flex;
+            padding-left: 10px;
+        }
+        #mid-b1 > div:nth-child(1)>p{
+            margin-left: 7px;
+        }
+        #mid-b1 > div:nth-child(2){
+            width: 14%;
+            height: 70%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            display: flex;
+            line-height: 1px;
+            align-items: center;
+            color: rgb(79, 76, 76);
+        }
+        #mid-b1 > div > div:nth-child(2)>p{
+            font-size: 12px;
+            color: rgb(112, 111, 111);
+        }
+        
+        #mid-b1 > div:nth-child(2)>span{
+            margin: auto 15px auto 15px;
+            
+        }
+        #mid-b1 > div:nth-child(3){
+            width: 14%;
+            height: 70%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            display: flex;
+            line-height: 1px;
+            align-items: center;
+            color: rgb(79, 76, 76);
+        }
+        #mid-b1 > div > div:nth-child(3)>p{
+            font-size: 12px;
+            color: rgb(112, 111, 111);
+        }
+        
+        #mid-b1 > div:nth-child(3)>span{
+            margin: auto 15px auto 15px;
+            
+        }
+        #mid-b1 > div:nth-child(4){
+            width: 20%;
+            height: 70%;
+            border: 1px solid rgb(107, 104, 104);
+            border-radius: 10px;
+            display: flex;
+            line-height: 1px;
+            align-items: center;
+            color: rgb(79, 76, 76);
+        }
+        #mid-b1 > div > div:nth-child(4)>p{
+            font-size: 12px;
+            color: rgb(112, 111, 111);
+        }
+        
+        #mid-b1 > div:nth-child(4)>span{
+            margin: auto 15px auto 15px;
+            
+        }
+        #mid-b1 > button{
+            width: 10%;
+            height:72%;
+            border-radius: 10px;
+            border:0px;
+            background-color: rgb(42, 115, 218);
+            color: white;
+            font-size: 20px;
+        }
+        #mid-b1 > button:hover{
+            cursor: pointer;
+            background-color: rgb(38, 100, 188);
+        }
+        #jk{
+            width: 97.5%;
+            margin: auto;
+        }
+        #jk>p{
+            width: 55%;
+            line-height: 22px;
+
+        }
+        #jk>p>a{
+            text-decoration: none;
+            color: rgb(53, 158, 250);
+        }
+        #jk>p>a:hover{
+            color: rgb(0, 55, 255);
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div>
+            <div>
+                <a href="Home.html">
+                    <img src="logo11.jpeg" alt="">
+                </a>
+            </div>
+            <p>
+                All Trips
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </p>
+        </div>
+        <div>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    language
+                    </span>
+                   <p>English</p>
+            </a>
+            <a href="">
+                Support
+            </a>
+            <a href="">
+                Trips
+            </a>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    notifications
+                    </span>
+            </a>
+            <a href="">
+                Sign in
+            </a>
+        </div>
+    </div>
+    <div id="mdl">
+       <h1>Discover your membership prices</h1>
+       <p>Welcome back! We've reserved these amazing discounts especially for our Expedia Rewards members. Look out for the yellow member price sticker and you can instantly save 10% or more on selected hotels, plus you'll also earn points on qualifying bookings. Terms and conditions may apply.</p>
+    </div>
+    <div id="show">
+        <p>Showing offers for :</p>
+        <h4>Jan 13 - Jan 15</h4>
+    </div>
+    <div id="container">
+
+    </div>
+    <div id="jack">
+        <h1>Do you already know where you want to go? Let's go</h1>
+        <div id="mid-bottom">
+            <div id="mid-b1">
+                <div>
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span> 
+                    <p>Going to</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        today
+                    </span>
+                    <div>
+                        <p>Check-in</p>
+                        <h4>28 Dec</h4>
+                    </div>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        today
+                    </span>
+                    <div>
+                        <p>Check-out</p>
+                        <h4>29 Dec</h4>
+                    </div>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                    <div>
+                        <p>Travellers</p>
+                        <h4>1 room, 2 travellers</h4>
+                    </div>
+                </div>
+                <button>
+                    Go
+                </button>
+            </div>
+            <div id="jk">
+                <h4>Rules and Conditions</h4>
+                <p>These offers are only available to Expedia Rewards members and Expedia app users.
+
+                    The discount is deducted from the price of selected hotels (excluding taxes and other fees).
+                    
+                    The price shown includes the discount and prices are shown per room per night for two people sharing a room.
+                    
+                    Unavailable dates and requirements for a minimum number of booked nights may occur.
+                    
+                    Check with the individual hotels for more information. All offers are subject to availability and may expire without notice.
+                    
+                    Expedia's standard booking <a href="">terms and conditions</a> apply.
+                    
+                    Provided by: Expedia Inc., 1111 Expedia Group Way W., Seattle, WA 98119, USA.</p>
+            </div>
+    </div>
+   <div id="footer">
+
+    <div id="seventh">
+        <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="Expedia Group">
+    </div>
+    <div id="eighth">
+        <div>
+            <h5>Company</h5>
+            <a href="aboutUs.html">
+                <p>About us</p>
+            </a>
+            <a href="">
+                <p>Jobs</p>
+            </a>
+            <a href="">
+                <p>List your property</p>
+            </a>
+           <a href="">
+            <p>Partnerships</p>
+           </a>
+        </div>
+        <div>
+            <h5>Explore</h5>
+            <a href="">
+                <p>India travel guide</p>
+            </a>
+            <a href="">
+                <p>Hotels in India</p>
+            </a>
+            <a href="">
+                <p>Holiday rentals in India</p>
+            </a>
+            <a href="">
+                <p>Holiday Packages in India</p>
+            </a>
+            <a href="">
+                <p>Domestic flights</p>
+            </a>
+            <a href="">
+                <p>Car hire in India</p>
+            </a>
+            <a href="">
+                <p>All accommodation types</p>
+            </a>
+            <a href="">
+                <p>Travel blog</p>
+            </a>
+        </div>
+        <div>
+            <h5>Policies</h5>
+            <a href="">
+                <p>Privacy</p>
+            </a>
+            <a href="">
+                <p>Terms of use</p>
+            </a>
+            <a href="">
+                <p>Vrbo terms and conditions</p>
+            </a>
+        </div>
+        <div>
+            <h5>Help</h5>
+            <a href="">
+                <p>Support</p>
+            </a>
+            <a href="">
+                <p>Change or cancel your booking</p>
+            </a>
+            <a href="">
+                <p>Refund process and timelines</p>
+            </a>
+            <a href="">
+                <p>Book a flight using an airline credit</p>
+            </a>
+           <a href="">
+                <p>International travel documents</p>
+           </a>
+        </div>
+    </div>
+    <div id="ninth">
+        <div>
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+        </div>
+        <p>© 2022 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+    </div>
+
+   </div>
+</body>
+</html>
+<script>
+    let main=document.getElementById("container");
+    fetch("hotel.json")
+    .then((res)=>{
+        return res.json();
+    })
+    .then((data)=>{
+        console.log(data);
+        display(data);
+    })
+    .catch((err)=>{
+        console.log(err);
+    })
+
+    function display(data){
+        data.forEach(el => {
+            let cart=document.createElement("div");
+            let img=document.createElement("img");
+            img.setAttribute("src",el.image);
+            let title=document.createElement("h2");
+            title.innerText=el.title;
+            let city=document.createElement("h3");
+            city.innerText=el.city;
+            let discription=document.createElement("p");
+            discription.innerText=el.discription;
+            let deal=document.createElement("div");
+            let discount=document.createElement("h5");
+            discount.innerText="Member price available";
+            let ogp=document.createElement("p");
+            ogp.innerText=el.ogp;
+            let ap=document.createElement("h4");
+            ap.innerText=el.ap;
+            let button=document.createElement("button");
+            button.innerText="Log in for member prices"
+            deal.append(discount,ogp,ap)
+            cart.append(img,title,city,discription,deal,button);
+            main.append(cart);
+            
+        });
+
+    }
+</script>
