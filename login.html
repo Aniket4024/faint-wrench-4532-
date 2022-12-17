@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #nav{
+            width: 100%;
+            height: 60px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+        }
+        #nav > div{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #nav > div:nth-child(1){
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            /* border: 1px solid green; */
+        }
+        #nav > div:nth-child(2){
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            /* border: 1px solid green; */
+        }
+        #nav > div > div:nth-child(1){
+            width: 30%;
+            height: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #nav > div > div >a> img{
+            width: 100%;
+            /* height: ; */
+        }
+        #nav>div:nth-child(2)>a{
+            text-decoration: none;
+            color: rgb(85, 85, 85);
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        #nav>div:nth-child(2)>a>p{
+            margin-left: 10px
+        }
+        #nav>div:nth-child(2)>a:hover{
+            color: rgb(34, 130, 255);
+        }
+        #nav>div:nth-child(2)>button{
+            background-color: rgba(255, 255, 255, 0);
+            border: 0px;
+            font-size: 15px;
+            color: rgb(85, 85, 85);
+            font-weight: 600;
+        }
+        #nav>div:nth-child(2)>button:hover{
+            color: rgb(34, 130, 255);
+            cursor: pointer;
+        }
+        #nav > div > p{
+            display: flex;
+            align-items: center;
+            color: rgb(85, 85, 85);
+            font-size: 15px;
+            font-weight: 600;
+            word-spacing: 3px;
+            letter-spacing:2px;
+        }
+        #nav > div > p > span{
+            margin-left: 10px;
+        }
+        #login{
+            width: 70%;
+            /* border: 1px solid rgb(215, 215, 215); */
+            border-radius: 20px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            height: 650px;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+        }
+        #login>div:nth-child(1){
+            width:20%;
+            height:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #phone{
+            width: 70%;
+            height: 95%;
+            background-image: url("phone.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        #login>div:nth-child(2){
+            width: 28%;
+            height: 90%;
+            /* border: 1px solid red; */
+            border-right: 2px solid rgb(231, 231, 231);
+        }
+        #login>div:nth-child(2)>div:nth-child(1){
+            width: 100%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid red */
+        }
+        #phone>div:nth-child(1){
+            width: 100%;
+            height: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:auto 0px auto -5px;
+        }
+        #phone>div:nth-child(2){
+            width: 74%;
+            height: 10%;
+            display: flex;
+            margin: auto;
+            justify-content:center;
+            align-items: center;
+            text-align: center;
+            margin:-55px auto auto auto;
+        }
+        #phone>div:nth-child(1)>img{
+            width: 75%;
+        }
+        #phone>div:nth-child(3){
+            width: 90%;
+            height: 20%;
+            /* border: 1px solid green; */
+            display: flex;
+            margin-top: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        #phone>div:nth-child(3)>img{
+            width: 50%;
+        }
+        #login>div:nth-child(2)>div:nth-child(2){
+            width: 90%;
+            height: 30%;
+            margin: auto;
+            /* border: 1px solid blue; */
+        }
+        #login>div:nth-child(3){
+            width:50%;
+            height:100%;
+            /* border: 1px solid red; */
+            margin: auto;
+        }
+        #login>div:nth-child(3)>div:nth-child(1){
+            width: 95%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+            /* border: 1px solid yellow; */
+        }
+        #login>div:nth-child(3)>div:nth-child(1)>img:nth-child(1){
+            width: 35%;
+            margin-top: 15px;
+            margin-right: -30px;
+        }
+        #login>div:nth-child(3)>div:nth-child(1)>img:nth-child(2){
+            width: 20%;
+            margin-right: 40px;
+        }
+        #login>div:nth-child(3)>div:nth-child(1)>img:nth-child(3){
+            width: 40%;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        #login>div:nth-child(3)>div:nth-child(2){
+            width: 95%;
+            height: 60%;
+            margin: auto;
+            border-top: 1px solid rgb(239, 239, 239);
+            /* border-bottom: 1px solid rgb(239, 239, 239); */
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(1){
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 20%;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(2){
+            /* border: 1px solid red; */
+            display: grid;
+            /* grid-template-rows: repeat(4,1fr); */
+            gap: 20px;
+            width: 80%;
+            margin:20px auto auto auto;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>input{
+            width: 90%;
+            margin: auto;
+            height: 50px;
+            padding-left: 20px;
+            border-radius: 10px;
+            border: 1px solid rgb(211, 211, 211);
+            background-color: white;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            outline-style: none;
+            font-size: 18px;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>p:nth-child(5){
+            margin:-10px auto auto 65%;
+            font-size: 13px;
+            color: rgb(174, 174, 174);
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>p:nth-child(1){
+            margin: 0px auto -15px 20px;
+            font-size: 13px;
+            color: rgb(141, 141, 141);
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>p:nth-child(3){
+            margin: 0px auto -15px 20px;
+            font-size: 13px;
+            color: rgb(141, 141, 141);
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>p:nth-child(5){
+            color: rgb(82, 82, 82);
+            cursor: pointer;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(3){
+            width: 80%;
+            margin: auto;
+            height: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid red; */
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(3)>img{
+            width: 25%;
+            height: 40%;
+            border-radius: 10px;
+            border: 0px;
+            color: white;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(3)>img:hover{
+            cursor: pointer;
+            box-shadow: rgba(0, 255, 229, 0.24) 0px 5px 10px;
+
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(4){
+            width: 80%;
+            margin: auto;
+            height: 25%;
+            /* border: 1px solid blue; */
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(4)>button{
+            width: 65%;
+            margin:10px auto;
+            height: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 50px;
+            border: 1px solid rgb(185, 185, 185);
+            background-color: white;
+            font-weight: 600;
+            color: rgb(65, 65, 65);
+
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(4)>button:hover{
+            color: white;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.73);
+            border: 0px;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(4)>button>p{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(4)>button>div{
+           width: 20%;
+           height: 100%;
+           display: flex;
+           justify-content: center;
+            align-items: center;
+        }
+        #login>div:nth-child(3)>div:nth-child(2)>div:nth-child(4)>button>div>img{
+           width:50%;
+        }
+        #login>div:nth-child(2)>div:nth-child(2)>button{
+            width: 80%;
+            height: 33%;
+            border: 1px solid;
+            margin:20px 30px;
+            border-radius: 13px;
+            border: 2px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #login>div:nth-child(2)>div:nth-child(2)>button:hover{
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+        #login>div:nth-child(2)>div:nth-child(2)>button>div:nth-child(1){
+            /* border: 1px solid red; */
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        #login>div:nth-child(2)>div:nth-child(2)>button>div:nth-child(1)>img{
+            width: 80%;
+        }
+        #login>div:nth-child(2)>div:nth-child(2)>button>div:nth-child(2){
+            /* border: 1px solid blue; */
+            width: 75%;
+            height: 100%;
+            line-height:6px;
+        }
+        #eighth{
+            width: 80%;
+            height: 310px;
+            border-bottom: 1px solid rgb(168, 164, 164);
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #eighth>div{
+            width: 20%;
+            height: 100%;
+        }
+        #eighth>div>a>p{
+            font-size: 13px;
+        }
+        #eighth>div>a{
+            text-decoration: none;
+            color: rgb(76, 34, 175);
+        }
+        #eighth>div>a:hover{
+            color: rgb(0, 153, 255);
+            cursor: pointer;
+        }
+        #ninth{
+            width: 80%;
+            height: 150px;
+            margin: auto;
+        }
+        #ninth>div{
+            width: 20%;
+            height: 40%;
+            margin: 30px 0px ;
+        }
+        #ninth>div>img{
+            width: 100%;
+        }
+        #ninth>p{
+            font-size: 13px;
+        }
+        #register{
+            width: 80%;
+            height: 100px;
+            border-bottom: 1px solid rgb(163, 163, 163);
+            margin:50px auto;
+
+        }
+        #register>p{
+            width: 50%;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 600;
+            margin: auto;
+        }
+        #register>p>a{
+            text-decoration: none;
+            color: rgb(50, 132, 255);
+        }
+        #register>p>a:hover{
+            color: rgb(0, 4, 255);
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div>
+            <div>
+                <a href="Home.html">
+                    <img src="logo11.jpeg" alt="">
+                </a>
+            </div>
+            <p>
+                More Travel
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </p>
+        </div>
+        <div>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    language
+                    </span>
+                   <p>English</p>
+            </a>
+            <a href="">
+                Support
+            </a>
+            <a href="">
+                Trips
+            </a>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    notifications
+                    </span>
+            </a>
+            <a href="">
+                Sign in
+            </a>
+            
+        </div>
+    </div>
+    <div id="login">
+        <div>
+            <img src="man.png" alt="">
+        </div>
+        <div>
+            <div>
+                <div id="phone">
+                    <div>
+                        <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/BEX-HP-CONTROL-27.png" alt="">
+                    </div>
+                    <div>
+                        <h4>
+                            Scan the QR code & get the app
+                        </h4>
+                    </div>
+                    <div>
+                        <img src="hand.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button>
+                    <div>
+                        <img src="playStore.png" alt="">
+                    </div>
+                    <div>
+                        <p>GET IT ON</p>
+                        <h2>Google Play</h2>
+                    </div>
+                </button>
+                <button>
+                    <div>
+                        <img src="apple.png" alt="">
+                    </div>
+                    <div>
+                        <p>Download on the</p>
+                        <h2>App Store</h2>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="2people.png" alt="">
+                <img src="man right.png" alt="">
+                <img src="logo11.jpeg" alt="">
+            </div>
+            <div >
+                <div>
+                    <h2>Login / Sign up</h2>
+                </div>
+                <div>
+                    <p>User Id / Email Id</p>
+                    <input id="email" type="email" placeholder="👨‍💼  |  Email Id">
+                    <p>Password</p>
+                    <input id="pass" value="" type="tetx" placeholder="🔑  |  Password">
+                    <p>Forget Password ?</p>
+                </div>
+                
+                <div >
+                    <img id="log" src="logo11.jpeg" alt="">
+                </div>
+                
+                <div>
+                    <button >
+                        <div>
+                            <img src="google-removebg-preview.png" alt="">
+                        </div>
+                        <p>
+                            Continue with Google
+                        </p>
+                    </button>
+                    <button>
+                        <div>
+                            <img src="meta.png" alt="">
+                        </div>
+                        <p>
+                            Login with Meta
+                        </p>
+                    </button>
+                </div>
+              
+            </div>
+            
+            
+        </div>
+    </div>
+    <div id="register">
+        <p>If you Don't Have an account the click on <a href="">Register</a> and enjoy you first trip whit let's Go 😊</p>
+    </div>
+    <div id="eighth">
+        <div>
+            <h5>Company</h5>
+            <a href="aboutUs.html">
+                <p>About us</p>
+            </a>
+            <a href="">
+                <p>Jobs</p>
+            </a>
+            <a href="">
+                <p>List your property</p>
+            </a>
+           <a href="">
+            <p>Partnerships</p>
+           </a>
+        </div>
+        <div>
+            <h5>Explore</h5>
+            <a href="">
+                <p>India travel guide</p>
+            </a>
+            <a href="">
+                <p>Hotels in India</p>
+            </a>
+            <a href="">
+                <p>Holiday rentals in India</p>
+            </a>
+            <a href="">
+                <p>Holiday Packages in India</p>
+            </a>
+            <a href="">
+                <p>Domestic flights</p>
+            </a>
+            <a href="">
+                <p>Car hire in India</p>
+            </a>
+            <a href="">
+                <p>All accommodation types</p>
+            </a>
+            <a href="">
+                <p>Travel blog</p>
+            </a>
+        </div>
+        <div>
+            <h5>Policies</h5>
+            <a href="">
+                <p>Privacy</p>
+            </a>
+            <a href="">
+                <p>Terms of use</p>
+            </a>
+            <a href="">
+                <p>Vrbo terms and conditions</p>
+            </a>
+        </div>
+        <div>
+            <h5>Help</h5>
+            <a href="">
+                <p>Support</p>
+            </a>
+            <a href="">
+                <p>Change or cancel your booking</p>
+            </a>
+            <a href="">
+                <p>Refund process and timelines</p>
+            </a>
+            <a href="">
+                <p>Book a flight using an airline credit</p>
+            </a>
+           <a href="">
+                <p>International travel documents</p>
+           </a>
+        </div>
+    </div>
+    <div id="ninth">
+        <div>
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+        </div>
+        <p>© 2022 Let`s Go, Inc., an Let`s Go Group company. All rights reserved. Let`s Go and the Airplane Logo are trademarks or registered trademarks of Let`s Go, Inc.</p>
+    </div>
+</body>
+</html>
+<script src="login.js">
+    
+    
+</script>

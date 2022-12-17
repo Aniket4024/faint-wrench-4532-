@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width:12%;
+            height: 30px;
+            padding-left: 50px;
+        }
+        button{
+            width: 100px;
+            height: 36px;
+        }
+    </style>
+</head>
+<body>
+    <input id="input" type="text" placeholder="email">
+    <input id="pass" type="text" placeholder="pass">
+    <button id="button">
+        click
+    </button>
+</body>
+</html>
+<script>
+    let input=document.getElementById("input");
+    
+    let pass=document.getElementById("pass");
+    let button = document.getElementById("button");
+    button.addEventListener("click",check);
+    let data=[
+        {
+            "email":"1234@gmail.com",
+            "pass":"1234"
+        }
+    ];
+    // fetch("demo.json")
+    // .then((res)=>{
+    //     return res.json();
+    // })
+    // .then((now)=>{
+    //     console.log(now);
+    //     data=now;
+    // })
+    // .catch((err)=>{
+    //     console.log(err)
+    // })
+
+    function check(){
+        let jj;
+        let dd;
+        data.forEach((el) => {
+            if(input.value!==el.email && pass.value!==el.pass){
+                jj=input.value;
+                dd=pass.value;
+                
+            }
+        });
+        data.push({email:jj,pass:dd})
+        console.log(data)
+    }
+</script>
+
