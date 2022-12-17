@@ -350,8 +350,67 @@
             height: 100%;
             line-height:6px;
         }
-        /* #login>div:nth-child(4) */
-        
+        #eighth{
+            width: 80%;
+            height: 310px;
+            border-bottom: 1px solid rgb(168, 164, 164);
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #eighth>div{
+            width: 20%;
+            height: 100%;
+        }
+        #eighth>div>a>p{
+            font-size: 13px;
+        }
+        #eighth>div>a{
+            text-decoration: none;
+            color: rgb(76, 34, 175);
+        }
+        #eighth>div>a:hover{
+            color: rgb(0, 153, 255);
+            cursor: pointer;
+        }
+        #ninth{
+            width: 80%;
+            height: 150px;
+            margin: auto;
+        }
+        #ninth>div{
+            width: 20%;
+            height: 40%;
+            margin: 30px 0px ;
+        }
+        #ninth>div>img{
+            width: 100%;
+        }
+        #ninth>p{
+            font-size: 13px;
+        }
+        #register{
+            width: 80%;
+            height: 100px;
+            border-bottom: 1px solid rgb(163, 163, 163);
+            margin:50px auto;
+
+        }
+        #register>p{
+            width: 50%;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 600;
+            margin: auto;
+        }
+        #register>p>a{
+            text-decoration: none;
+            color: rgb(50, 132, 255);
+        }
+        #register>p>a:hover{
+            color: rgb(0, 4, 255);
+        }
     </style>
 </head>
 <body>
@@ -387,9 +446,9 @@
                     notifications
                     </span>
             </a>
-            <button id="same" onclick="click()">
+            <a href="">
                 Sign in
-            </button>
+            </a>
             
         </div>
     </div>
@@ -446,16 +505,18 @@
                 </div>
                 <div>
                     <p>User Id / Email Id</p>
-                    <input id="email" value="" type="email" placeholder="👨‍💼  |  Email Id">
+                    <input id="email" type="email" placeholder="👨‍💼  |  Email Id">
                     <p>Password</p>
                     <input id="pass" value="" type="tetx" placeholder="🔑  |  Password">
                     <p>Forget Password ?</p>
                 </div>
-                <div>
-                    <img src="logo11.jpeg" alt="">
+                
+                <div >
+                    <img id="log" src="logo11.jpeg" alt="">
                 </div>
+                
                 <div>
-                    <button id="log">
+                    <button >
                         <div>
                             <img src="google-removebg-preview.png" alt="">
                         </div>
@@ -472,39 +533,98 @@
                         </p>
                     </button>
                 </div>
+              
             </div>
+            
+            
         </div>
+    </div>
+    <div id="register">
+        <p>If you Don't Have an account the click on <a href="">Register</a> and enjoy you first trip whit let's Go 😊</p>
+    </div>
+    <div id="eighth">
+        <div>
+            <h5>Company</h5>
+            <a href="aboutUs.html">
+                <p>About us</p>
+            </a>
+            <a href="">
+                <p>Jobs</p>
+            </a>
+            <a href="">
+                <p>List your property</p>
+            </a>
+           <a href="">
+            <p>Partnerships</p>
+           </a>
+        </div>
+        <div>
+            <h5>Explore</h5>
+            <a href="">
+                <p>India travel guide</p>
+            </a>
+            <a href="">
+                <p>Hotels in India</p>
+            </a>
+            <a href="">
+                <p>Holiday rentals in India</p>
+            </a>
+            <a href="">
+                <p>Holiday Packages in India</p>
+            </a>
+            <a href="">
+                <p>Domestic flights</p>
+            </a>
+            <a href="">
+                <p>Car hire in India</p>
+            </a>
+            <a href="">
+                <p>All accommodation types</p>
+            </a>
+            <a href="">
+                <p>Travel blog</p>
+            </a>
+        </div>
+        <div>
+            <h5>Policies</h5>
+            <a href="">
+                <p>Privacy</p>
+            </a>
+            <a href="">
+                <p>Terms of use</p>
+            </a>
+            <a href="">
+                <p>Vrbo terms and conditions</p>
+            </a>
+        </div>
+        <div>
+            <h5>Help</h5>
+            <a href="">
+                <p>Support</p>
+            </a>
+            <a href="">
+                <p>Change or cancel your booking</p>
+            </a>
+            <a href="">
+                <p>Refund process and timelines</p>
+            </a>
+            <a href="">
+                <p>Book a flight using an airline credit</p>
+            </a>
+           <a href="">
+                <p>International travel documents</p>
+           </a>
+        </div>
+    </div>
+    <div id="ninth">
+        <div>
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+        </div>
+        <p>© 2022 Let`s Go, Inc., an Let`s Go Group company. All rights reserved. Let`s Go and the Airplane Logo are trademarks or registered trademarks of Let`s Go, Inc.</p>
     </div>
 </body>
 </html>
-<script>
-    // let email=document.getElementById("email");
-    // let pass=document.getElementById("pass");
-    // let log=document.getElementById("log");
-    // log.addEventListener("click",click);
-
-    let url = ("./Data/data.json");
-
-    fetch(url)
-    .then((res)=>{
-        return res.json()
-    })
-    .then((data)=>{
-        console.log(data)
-        // click(atch)
-    })
-    .catch((err)=>{
-        console.log(err)
-    });
-
-    // function click(data){
-    //     data.forEach(el => {
-    //         let jk = new Promise((resolve, reject) => {
-    //             if(email.value==el.email){
-    //                 resolve 
-    //             }
-    //         })
-    //     });
-       
-    // }
+<script src="login.js">
+    
+    
 </script>
