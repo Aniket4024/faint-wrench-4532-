@@ -25,13 +25,12 @@ let email=document.getElementById("email");
       jk.forEach((el) => {
         if(email.value!==el.email || email.value==="" || pass.value!==el.pass){
             alert("Please Enter Valid Details ⚠️"+"\n"+"Or"+"\n"+"If you don't have an account then Register First 😊");
-
         }
         if(email.value===el.email && pass.value===el.pass){
             alert("Login successfully ✅")
         }
       });
-     
     }
     
+    check()
     

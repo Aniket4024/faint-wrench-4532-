@@ -48,6 +48,7 @@
     // .catch((err)=>{
     //     console.log(err)
     // })
+    let newData = JSON.parse(localStorage.getItem("registered-data")) || [];
 
     function check(){
         let jj;
@@ -55,12 +56,13 @@
         data.forEach((el) => {
             if(input.value!==el.email && pass.value!==el.pass){
                 jj=input.value;
-                dd=pass.value;
-                
+                dd=pass.value;           
             }
         });
-        data.push({email:jj,pass:dd})
-        console.log(data)
+        newData.push({email:jj,pass:dd})
+        localStorage.setItem("registered-data", JSON.stringify(newData));
+        console.log(newData)
     }
+
 </script>
 
