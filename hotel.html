@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Hotel's 🇮🇳</title>
+    <link rel="icon" type="image/x-icon" href="logo11.jpeg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <style>
+        #midl{
+            width: 100%;
+            height: 450px;
+            margin:0px auto;
+            background-image: url("taj.jpg");
+            background-size: cover;
+            position: absolute;
+            background-repeat: no-repeat;
+            
+        }
+        #midl>h1{
+            color: white;
+            font-size: 40px;
+            margin:170px auto 20px auto;
+            text-align: center;
+            text-shadow: 00px 0px 70px rgb(255, 255, 255);
+        }
+        #midl>div{
+            width: 60%;
+            height: 20%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        #midl>div:nth-child(2)>input{
+            width: 65%;
+            height: 60%;
+            border: 0px;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.599);
+            font-family:Arial, FontAwesome;
+            font-size: 20px;
+            padding-left:50px;
+        }
+        #midl>div:nth-child(2)>input:focus{
+            outline: none;
+            border: 3px solid rgba(163, 163, 163, 0.591);
+            background-color:  rgba(255, 255, 255, 0.826);
+        }
+        #eighth{
+            width: 80%;
+            height: 310px;
+            border-bottom: 1px solid rgb(168, 164, 164);
+            border-top: 1px solid rgb(168, 164, 164);
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #eighth>div{
+            width: 20%;
+            height: 100%;
+        }
+        #eighth>div>a>p{
+            font-size: 13px;
+        }
+        #eighth>div>a{
+            text-decoration: none;
+            color: rgb(76, 34, 175);
+        }
+        #eighth>div>a:hover{
+            color: rgb(0, 153, 255);
+            cursor: pointer;
+        }
+        #ninth{
+            width: 80%;
+            height: 150px;
+            margin: auto;
+        }
+        #ninth>div{
+            width: 20%;
+            height: 40%;
+            margin: 30px 0px ;
+        }
+        #ninth>div>img{
+            width: 100%;
+        }
+        #ninth>p{
+            font-size: 13px;
+        }
+        #lower{
+            width: 90%;
+            /* height: 3500px; */
+            /* border: 1px solid red; */
+            margin:500px auto 100px auto;
+            display: flex;
+            
+        }
+        #l-left{
+            width: 30%;
+            height: 800px;
+            border-right: 1px solid rgb(212, 212, 212);
+           
+        }
+        #l-right{
+            width: 70%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        #l-right>div{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+        }
+        #l-right>div>img{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+        }
+        .div{
+            /* border: 1px solid red; */
+            width: 90%;
+            height: 45%;
+            display: flex;
+            margin:auto;
+        }
+        .div1{
+            width: 60%;
+            /* border: 1px solid green; */
+        }
+        .div2{
+            width: 40%;
+            height: 100%;
+            /* border: 1px solid blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div2>button{
+            width: 100%;
+            border-radius: 10px;
+            height: 20%;
+            border: 0px;
+            margin-top: 50px;
+            background-color: rgb(0, 145, 255);
+            font-size: 15px;
+            font-weight: 800;
+            color: white;
+        }
+        .div2>button:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+
+        }
+        #l-left>div:nth-child(2){
+            width: 80%;
+            /* border: 1px solid red; */
+            border-bottom: 1px solid rgb(212, 212, 212);
+            border-top: 1px solid rgb(212, 212, 212);
+            padding-bottom: 40px;
+            height: 30%;
+            margin: auto;
+            display: grid;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 25px;
+        }
+        #l-left>div:nth-child(3){
+            width: 80%;
+            /* border: 1px solid red; */
+            border-bottom: 1px solid rgb(212, 212, 212);
+            margin: auto;
+            padding-bottom: 20px;
+            height: 20%;
+            display: grid;
+            /* justify-content: flex-start; */
+            align-items: center;
+            font-size: 25px;
+        }
+        #l-left>div:nth-child(3)>div{
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+        #l-left>div:nth-child(3)>div>input{
+           margin-right: 10px;
+        }
+        #l-left>div:nth-child(4){
+            width: 80%;
+            /* border: 1px solid red; */
+            border-bottom: 1px solid rgb(212, 212, 212);
+            margin: auto;
+            padding-bottom: 20px;
+            height: 30%;
+            display: grid;
+            align-items: center;
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+     <!-- Nav Bar -->
+     <div id="nav">
+        <div>
+            <div>
+                <a href="index.html">
+                    <img src="logo11.jpeg" alt="">
+                </a>
+            </div>
+            <p>
+                More Travel
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </p>
+        </div>
+        <div>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    language
+                    </span>
+                   <p>English</p>
+            </a>
+            <a href="">
+                Support
+            </a>
+            <a href="">
+                Trips
+            </a>
+            <a href="">
+                <span class="material-symbols-outlined">
+                    notifications
+                    </span>
+            </a>
+            <a href="login.html">
+                Sign in
+            </a>
+            
+        </div>
+    </div>
+    <div id="midl">
+        <h1>Search for your Destination</h1>
+        <div>
+            <input oninput="search()" id="search" type="text" placeholder="&#xF002; Search" />
+        </div>
+    </div>
+    <div id="lower">
+        <div id="l-left">
+            <h2>Filter By 🔻</h2>
+            <div> 
+                <h3>Stars</h3>
+                <div>
+                    <input onclick="star5()" type="radio" name="" value="5" id="5-star"> ★ ★ ★ ★ ★
+                </div>
+                <div>
+                    <input onclick="star4()" type="radio" name="" value="4" id="4-star"> ★ ★ ★ ★ ✩
+                </div>
+                <div>
+                    <input onclick="star3()" type="radio" name="" value="3" id="3-star"> ★ ★ ★ ✩ ✩
+                </div>
+                <div>
+                    <input onclick="star2()" type="radio" name="" value="2" id="2-star"> ★ ★ ✩ ✩ ✩
+                </div>
+                <div>
+                    <input onclick="star1()" type="radio" name="" value="1" id="1-star"> ★ ✩ ✩ ✩ ✩
+                </div>
+            </div>
+            <div > 
+                <h2>Price</h2>
+                <div>
+                    <input onclick="check()" type="checkbox" name="" value="h21" class="hl"> High to Low
+                </div>
+                <div>
+                    <input onclick="check()" type="checkbox" name="" value="l2h" class="hl"> Low to High
+                </div>
+            </div>
+            <div>
+                <h2>City</h2>
+                <div>
+                    <input onclick="ngp()"  value="ngp" type="checkbox" name="" id="ngp"> Nagpur
+                </div>
+                <div>
+                    <input onclick="mum()" value="mum" type="checkbox" name="" id="mum"> Mumbai
+                </div>
+                <div>
+                    <input onclick="nas()" value="nas" type="checkbox" name="" id="nas"> Nashik
+                </div>
+                <div>
+                    <input onclick="del()" value="del" type="checkbox" name="" id="del"> Delhi
+                </div>
+            </div>
+        </div>
+        <div id="l-right">
+
+        </div>
+    </div>
+    <div id="eighth">
+        <div>
+            <h5>Company</h5>
+            <a href="aboutUs.html">
+                <p>About us</p>
+            </a>
+            <a href="">
+                <p>Jobs</p>
+            </a>
+            <a href="">
+                <p>List your property</p>
+            </a>
+           <a href="">
+            <p>Partnerships</p>
+           </a>
+        </div>
+        <div>
+            <h5>Explore</h5>
+            <a href="">
+                <p>India travel guide</p>
+            </a>
+            <a href="">
+                <p>Hotels in India</p>
+            </a>
+            <a href="">
+                <p>Holiday rentals in India</p>
+            </a>
+            <a href="">
+                <p>Holiday Packages in India</p>
+            </a>
+            <a href="">
+                <p>Domestic flights</p>
+            </a>
+            <a href="">
+                <p>Car hire in India</p>
+            </a>
+            <a href="">
+                <p>All accommodation types</p>
+            </a>
+            <a href="">
+                <p>Travel blog</p>
+            </a>
+        </div>
+        <div>
+            <h5>Policies</h5>
+            <a href="">
+                <p>Privacy</p>
+            </a>
+            <a href="">
+                <p>Terms of use</p>
+            </a>
+            <a href="">
+                <p>Vrbo terms and conditions</p>
+            </a>
+        </div>
+        <div>
+            <h5>Help</h5>
+            <a href="">
+                <p>Support</p>
+            </a>
+            <a href="">
+                <p>Change or cancel your booking</p>
+            </a>
+            <a href="">
+                <p>Refund process and timelines</p>
+            </a>
+            <a href="">
+                <p>Book a flight using an airline credit</p>
+            </a>
+           <a href="">
+                <p>International travel documents</p>
+           </a>
+        </div>
+    </div>
+    <div id="ninth">
+        <div>
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt="">
+        </div>
+        <p>© 2022 Let`s Go, Inc., an Let`s Go Group company. All rights reserved. Let`s Go and the Airplane Logo are trademarks or registered trademarks of Let`s Go, Inc.</p>
+    </div>
+</body>
+</html>
+<script src="hotel.js">
+    
+</script>

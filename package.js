@@ -1,5 +1,5 @@
 let main=document.getElementById("container");
-    let url = ("./Data/hotel.json")
+    let url = ("hotel.json")
     fetch(url)
     .then((res)=>{
         return res.json();
