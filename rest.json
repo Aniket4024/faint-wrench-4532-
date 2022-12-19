@@ -1,0 +1,176 @@
+[
+    {
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg/1200px-Mumbai_Aug_2018_%2843397784544%29.jpg",
+        "name":"Taj Hotel",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ★ ★",
+        "rate":"10000 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/540000/533200/533142/33a20a51_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Nagpur",
+        "star":"★ ★ ★ ★ ★",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5310000/5301700/5301691/42bd346d_b.jpg",
+        "name":"Hotel Hayat",
+        "city":"Nashik",
+        "star":"★ ★ ★ ✩ ✩",
+        "rate":"6890 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/6000000/5310000/5301700/5301691/796fe3c1.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"Taj Hotel",
+        "city":"Delhi",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"5000 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/10000000/9790000/9784600/9784580/0114879f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"The St. Regis Mumbai ",
+        "city":"Nagpur",
+        "star":"★ ★ ✩ ✩ ✩ ",
+        "rate":"6999 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/870000/860900/860842/b1780028_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/1000000/540000/533200/533142/544658e4.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"Taj Hotel",
+        "city":"Delhi",
+        "star":"★ ★ ★ ★ ★",
+        "rate":"10000 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/4000000/3450000/3447500/3447485/b6b155e8_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/3000000/2600000/2597800/2597781/51f0bb47.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"The Westin Mumbai Powai Lake",
+        "city":"Delhi",
+        "star":"★ ★ ★ ✩ ✩",
+        "rate":"6890 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/3000000/2600000/2597800/2597781/51f0bb47.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"Taj Hotel",
+        "city":"Nagpur",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"5000 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/39000000/38110000/38108500/38108445/dfbab5e6.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"The St. Regis Mumbai ",
+        "city":"Nashik",
+        "star":"★ ★ ✩ ✩ ✩",
+        "rate":"6999 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/70000000/69750000/69749000/69748910/da104fb7.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"The St. Regis Mumbai ",
+        "city":"Delhi",
+        "star":"★ ★ ★ ✩ ✩",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/74000000/73980000/73974400/73974370/9d363b80.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"Taj Hotel",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ★ ★",
+        "rate":"10000 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/2000000/1160000/1157500/1157448/0d3933eb_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Nagpur",
+        "star":"★ ★ ★ ✩ ✩",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/15000000/14640000/14637600/14637556/d00eba1d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "city":"Delhi",
+        "star":"★ ★ ★ ✩ ✩",
+        "rate":"6890 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/1000000/540000/533200/533142/544658e4.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"Taj Hotel",
+        "city":"Nashik",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"5000 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/15000000/14640000/14637600/14637556/d00eba1d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"The St. Regis Mumbai ",
+        "city":"Nagpur",
+        "star":"★ ★ ✩ ✩ ✩",
+        "rate":"6999 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5310000/5301700/5301691/42bd346d_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ✩ ✩",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/540000/533200/533142/33a20a51_b.jpg",
+        "name":"Taj Hotel",
+        "city":"Delhi",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"5000 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5310000/5301700/5301691/42bd346d_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Nashik",
+        "star":"★ ★ ✩ ✩ ✩",
+        "rate":"6999 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/3000000/2600000/2597800/2597781/51f0bb47.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"The St. Regis Mumbai ",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5310000/5301700/5301691/42bd346d_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ✩ ✩",
+        "rate":"8999 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/540000/533200/533142/33a20a51_b.jpg",
+        "name":"Taj Hotel",
+        "city":"Delhi",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"5000 ₹ / per night"
+    },
+    {
+        "img":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5310000/5301700/5301691/42bd346d_b.jpg",
+        "name":"The St. Regis Mumbai ",
+        "city":"Nashik",
+        "star":"★ ✩ ✩ ✩ ✩",
+        "rate":"6999 ₹ / per night"
+    },
+    {
+        "img":"https://images.trvl-media.com/hotels/3000000/2600000/2597800/2597781/51f0bb47.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "name":"The St. Regis Mumbai ",
+        "city":"Mumbai",
+        "star":"★ ★ ★ ★ ✩",
+        "rate":"8999 ₹ / per night"
+    }
+]
